@@ -151,6 +151,23 @@ bool = isObjectLike( function foo() {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-object`][@stdlib/assert/is-object]: test if a value is an object.
+-   [`@stdlib/assert/is-plain-object`][@stdlib/assert/is-plain-object]: test if a value is a plain object.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -207,6 +224,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-object-like/main/LICENSE
 
 [type-of]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-object]: https://github.com/stdlib-js/assert-is-object
+
+[@stdlib/assert/is-plain-object]: https://github.com/stdlib-js/assert-is-plain-object
+
+<!-- </related-links> -->
 
 </section>
 
