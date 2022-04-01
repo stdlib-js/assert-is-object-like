@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/assert-is-object-like",
+  "version": "0.0.0",
+  "description": "Test if a value is object-like.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-object-like.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "type",
+    "typeof",
+    "object",
+    "obj",
+    "object-like",
+    "is",
+    "isobjectlike",
+    "check",
+    "validate",
+    "valid",
+    "test",
+    "isvalid"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
