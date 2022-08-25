@@ -58,6 +58,7 @@
     "@stdlib/assert-has-weakset-support": "^0.0.x",
     "@stdlib/assert-is-boolean": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/number-ctor": "^0.0.x",
     "@stdlib/symbol-ctor": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
