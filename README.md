@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
+import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
 ```
 
 #### isObjectLike( value )
@@ -114,7 +114,7 @@ bool = isObjectLike.isObjectLikeArray( [] );
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
 
 var bool = isObjectLike( {} );
 // returns true
