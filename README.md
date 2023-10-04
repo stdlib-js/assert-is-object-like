@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-object-like/tags). For example,
+
+```javascript
 import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
+import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
 ```
 
 #### isObjectLike( value )
@@ -114,7 +119,7 @@ bool = isObjectLike.isObjectLikeArray( [] );
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.1.1-deno/mod.js';
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@deno/mod.js';
 
 var bool = isObjectLike( {} );
 // returns true
