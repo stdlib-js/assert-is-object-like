@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@esm/index.mjs';
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@esm/index.mjs';
+import { isObjectLikeArray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.2.0-esm/index.mjs';
 ```
 
 #### isObjectLike( value )
@@ -119,7 +119,7 @@ bool = isObjectLike.isObjectLikeArray( [] );
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@esm/index.mjs';
+import isObjectLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-like@v0.2.0-esm/index.mjs';
 
 var bool = isObjectLike( {} );
 // returns true
