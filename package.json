@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-tools-array-function": "^0.2.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.0",
